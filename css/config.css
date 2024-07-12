@@ -11,7 +11,7 @@ body,div,p,a,article,section,nav,ul,li,header,footer,input,select,textarea,h1,h2
 font-size:1em;
 font-weight:400;
 line-height:160%;
-letter-spacing:0.5px;
+letter-spacing:0;
 word-wrap:break-word;
 color:#000;
 font-family:'Poppins','Noto Sans JP', sans-serif;
@@ -53,8 +53,9 @@ a:hover {
 animation:hover 0.5s ease forwards;
 }
 
-.fr {color:#ff0000;}
-.fg {color:#081295;}
+.fr {color:#e83434;}
+.fg {color:#42af1e;}
+.fy {color:#fae600;}
 
 .b {font-weight:bold;}
 .fl{font-size:120%;}

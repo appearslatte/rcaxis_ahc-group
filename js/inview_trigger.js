@@ -17,5 +17,6 @@ $(function() {
     setInview('fadeInDownLeft');
     setInview('fadeInDownRight');
     setInview('fadeInLine');
+    setInview('fadeInCate');
 
 });

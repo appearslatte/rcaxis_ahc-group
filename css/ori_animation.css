@@ -122,6 +122,15 @@ opacity:1;
 transform:translate(0, 0);
 }
 
+.inviewfadeInCate {
+transform:translate(0,-100%);
+transition:0.5s ease;
+}
+
+.fadeInCate {
+transform:translate(0, 0);
+}
+
 
 
 /*DELAY*/
@@ -163,4 +172,24 @@ transition-delay:1.8s;
 
 .delay10 {
 transition-delay:2s;
+}
+
+.delay11 {
+transition-delay:2.2s;
+}
+
+.delay12 {
+transition-delay:2.4s;
+}
+
+.delay13 {
+transition-delay:2.6s;
+}
+
+.delay14 {
+transition-delay:2.8s;
+}
+
+.delay15 {
+transition-delay:3s;
 }

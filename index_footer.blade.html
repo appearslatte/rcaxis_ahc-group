@@ -2,11 +2,11 @@
 <!--FOOTER-->
 <footer>
 	<div class="info">
-		<div class="logo"><img src="img/logo.png" alt=""></div>
-		<p class="company">●●●●●会社名●●●●●</p>
-		<p class="address">〒●●●-●●●●<br class="sp">●●●●●住所●●●●●</p>
+		<div class="logo inviewfadeInUp"><img src="img/logo.svg" alt=""></div>
+		<p class="company inviewfadeInUp">AHCグループ株式会社</p>
+		<p class="address inviewfadeInUp">〒101-0032<br class="sp">東京都千代田区岩本町2-11-9 <br class="sp">イトーピア橋本ビル2F</p>
 	</div><!--info-->
-    <p class="copyright">Copyright&copy;<script>new Date().getFullYear()>2010&&document.write(+new Date().getFullYear());</script>. ●●●. All Rights Reserved.</p>
+    <p class="copyright inviewfadeInUp">Copyright&copy;<script>new Date().getFullYear()>2010&&document.write(+new Date().getFullYear());</script>. AHC GROUP INC. All Rights Reserved.</p>
 </footer>
 
 <!--JS-->
@@ -21,6 +21,42 @@
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/additional-methods.min.js"></script>
 <script src="?p=v"></script>
+
+<!--INTERVIEW-->
+<script>
+	$(".tab1").click(function () {
+		$(this).addClass('on');
+		$(".interview1").show();
+		$(".interview2").hide();
+		$(".interview3").hide();
+		$(".tab2").removeClass('on');
+		$(".tab3").removeClass('on');
+	});
+	$(".tab2").click(function () {
+		$(this).addClass('on');
+		$(".interview1").hide();
+		$(".interview2").show();
+		$(".interview3").hide();
+		$(".tab1").removeClass('on');
+		$(".tab3").removeClass('on');
+	});
+	$(".tab3").click(function () {
+		$(this).addClass('on');
+		$(".interview1").hide();
+		$(".interview2").hide();
+		$(".interview3").show();
+		$(".tab1").removeClass('on');
+		$(".tab2").removeClass('on');
+	});
+</script>
+
+<!--FAQ-->
+<script>
+$(".question").click(function () {
+    $(this).next('.answer_cts').slideToggle('fast');
+    $(this).children('.arrow').toggleClass('open');
+});
+</script>
 
 </div><!--wrap-->
 </body>

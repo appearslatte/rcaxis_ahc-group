@@ -1,12 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" width="50px" height="50px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-</style>
-<rect x="0.5" y="0.5" width="49" height="49"/>
-<path class="st0" d="M49,1v48H1V1H49 M50,0H0v50h50V0L50,0z"/>
-<polyline class="st1" points="16,29.5 25,20.5 34,29.5 "/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        fill: #42af1e;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" width="50" height="50"/>
+  <g>
+    <line class="cls-1" x1="25" y1="35.2" x2="25" y2="14.8"/>
+    <polyline class="cls-2" points="15 26.1 25 14.8 35 26.1"/>
+  </g>
 </svg>
