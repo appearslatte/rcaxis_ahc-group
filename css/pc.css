@@ -1708,6 +1708,12 @@ footer .info .company {
     font-weight:bold;
 }
 
+footer .info .division {
+    font-size:80%;
+    font-weight:500;
+    padding-bottom:10px;
+}
+
 footer .info .address {
     font-size:90%;
 }
