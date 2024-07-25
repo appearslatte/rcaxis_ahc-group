@@ -20,7 +20,7 @@ require_once($_root_path . 'phplib/entryform.inc.php');
 
 //##### 設定項目
 $_conf['mail_email_col'] = "email";						// 管理者メールfromと確認メールtoに利用するinput項目
-$_conf['mail_admin'] = ["ahc_saiyo@ahc.co.jp", "secretary@rc-group.co.jp"];	// 管理者メールto
+$_conf['mail_admin'] = ["ahc_saiyo@ahc.co.jp"];	// 管理者メールto
 $_conf['mail_sub'] = "AHCグループ株式会社：応募フォーム";		// 管理者メールsub
 $_conf['mail_kakunin_from'] = "support@recruit-axis.jp";		// 確認メールfrom
 $_conf['mail_kakunin_fromname'] = "AHCグループ株式会社";		// 確認メールfromname
