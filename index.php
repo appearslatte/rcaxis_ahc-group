@@ -56,9 +56,7 @@ $_conf['mail_body_user'] = <<<EOP
 
 =======================================
 AHCグループ株式会社
-〒xxx-xxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-TEL：xxxxxxxxxxxxx
+〒101-0032東京都千代田区岩本町2-11-9 IT2 2F
 =======================================
 
 EOP;
