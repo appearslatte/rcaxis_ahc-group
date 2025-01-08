@@ -1667,6 +1667,34 @@ border-radius:5px;
 
 
 
+/*LINE BTN*/
+.LineBtn {
+    position:fixed;
+    right:0;
+    bottom:0;
+    z-index:10000;
+}
+
+.LineBtn a {
+    display:flex;
+    align-items:center;
+    padding:8px 15px;
+    background:#00b900;
+    border-radius:10px 0 0 0;
+}
+
+.LineBtn a img {
+    width:55px;
+    margin-right:5px;
+}
+
+.LineBtn a p {
+    font-size:110%;
+    font-weight:500;
+    line-height:135%;
+    color:#fff;
+}
+
 
 
 
